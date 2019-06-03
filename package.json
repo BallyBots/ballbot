@@ -13,6 +13,7 @@
     "discord.js-commando": "^0.10.0",
     "dotenv": "^8.0.0",
     "ffmpeg": "0.0.4",
+    "node-pre-gyp": "^0.13.0",
     "opusscript": "0.0.6",
     "sqlite": "^3.0.3"
   }

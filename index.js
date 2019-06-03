@@ -15,9 +15,10 @@ bot.registry.registerCommandsIn(__dirname + '/commands');
 
 global.servers = {};
 
-const prefix = settings.prefixl;
+// import bot setting (data)
+const prefix = process.env.prefix;
 const token = process.env.TOKEN;
-const owner = settings.owner;
+const owner = process.env.owner;
 
 var version = '1.0.1';
 
