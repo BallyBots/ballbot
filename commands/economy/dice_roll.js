@@ -8,7 +8,8 @@ class DiceRollCommand extends commando.Command
             name: 'roll',
             group: 'economy',
             memberName: 'roll',
-            description: 'Rolls a six sided dice'
+            description: 'Rolls a six sided dice',
+            guildOnly: true,
         });
     }
 

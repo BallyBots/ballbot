@@ -27,6 +27,9 @@ const streamOptions = { seek: 0, volume: 1 };
 
 bot.on('ready', () => {
     console.log('The bot is online!');
+    // sets the bot's status and status message
+    bot.user.setStatus("online");
+    bot.user.setActivity("BalliE program me", { type: "WATCHING" })
 
 });
 

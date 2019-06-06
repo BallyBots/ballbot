@@ -8,7 +8,8 @@ class CoinFlipCommand extends commando.Command
             name: 'flip',
             group: 'economy',
             memberName: 'flip',
-            description: 'Flips a coin, landing on either Heads or Tails'
+            description: 'Flips a coin, landing on either Heads or Tails',
+            guildOnly: true,
         });
     }
 
